@@ -6,8 +6,8 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 echo "What type of audio board do you have?"
-echo "1. WM8960"
-echo "2. ES7210 + ES8156"
+echo "1. WM8960 Audio HAT"
+echo "2. Audio Driver HAT"
 read ans
 file_prefix=""
 asound_state_file=""
